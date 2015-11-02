@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script
+src="http://ajax.googleapis.com/ajax/libs/prototype/1.7.2.0/prototype.js">
+</script>
+<script>
+function myFunction() {
+    $("h01").insert("Hello Prototype!");
+}
+Event.observe(window, "load", myFunction);
+</script>
+</head>
+<body>
+<h1 id="h01"></h1>
+</body>
+</html> 
+
+
+
+// Prototype provides functions to make HTML DOM programming easier.
+
+// Like jQuery, Prototype has its $() function.
+
+// The $() function accepts HTML DOM element id values (or DOM elements), and adds new functionality to DOM objects.
+
+// Unlike jQuery, Prototype has no ready() method to take the place of window.onload(). Instead, Prototype adds extensions to the browser and the HTML DOM.
+
+// In JavaScript, you can assign a function to handle the window's load event:

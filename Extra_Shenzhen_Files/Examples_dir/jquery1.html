@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+</script>
+<script>
+function myFunction() {
+    $("#h01").html("Hello jQuery")
+    }
+$(document).ready(myFunction);
+</script>
+</head>
+<body>
+<h1 id="h01"></h1>
+</body>
+</html> 
+
+
+
+
+// On console, try; $("#h01").html("Hello jQuery... Why...")
+
+//1) jQuery returns a jQuery object, different from the DOM object that was passed.
+//2) The jQuery object has properties and methods, different from the DOM object.
+//3) You cannot use HTML DOM properties and methods on jQuery objects.

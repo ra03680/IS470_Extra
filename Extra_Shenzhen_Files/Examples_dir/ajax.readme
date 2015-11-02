@@ -1,0 +1,19 @@
+AJAX = Asynchronous JavaScript and XML.
+
+In short; AJAX is about loading data in the background and display it on the webpage, without reloading the whole page.
+
+Examples of applications using AJAX: Gmail, Google Maps, Youtube, and Facebook tabs.
+
+
+
+
+The load() method loads data from a server and puts the returned data into the selected element.
+
+Syntax:
+
+$(selector).load(URL,data,callback);
+The required URL parameter specifies the URL you wish to load.
+
+The optional data parameter specifies a set of querystring key/value pairs to send along with the request.
+
+The optional callback parameter is the name of a function to be executed after the load() method is completed.

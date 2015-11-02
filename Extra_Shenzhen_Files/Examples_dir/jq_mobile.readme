@@ -1,0 +1,14 @@
+
+
+
+
+
+
+Instead of writing one application for each mobile device or OS:
+Android and Blackberry is written in Java
+iOS is written in Objective C
+Windows Phone is written in C# and .net, etc.
+jQuery Mobile solves this problem, as it only uses HTML, CSS and JavaScript, which is standard for all mobile web browsers!
+
+
+

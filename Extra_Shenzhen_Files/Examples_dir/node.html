@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Hello World!</p>
+
+<p>The DOM is very useful!</p>
+
+<p id="demo"></p>
+
+<script>
+var myNodelist = document.getElementsByTagName("p");
+document.getElementById("demo").innerHTML =
+"The innerHTML of the second paragraph is: " +
+myNodelist[1].innerHTML;
+</script>
+
+</body>
+</html>
